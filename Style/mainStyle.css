@@ -1,0 +1,178 @@
+#mainContainer{
+width: 800px;
+padding-top: 15px;
+margin-left: auto;
+margin-right: auto;
+background-color: #d2d2d2;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+.shadowed{
+-webkit-box-shadow: 5px 5px 8px #818181;
+-webkit-border-radius: 15px;
+-moz-box-shadow: 5px 5px 8px #818181;
+-moz-border-radius: 15px;
+box-shadow: 5px 5px 8px #818181;
+border-radius: 15px;
+behavior: url(PIE.htc);
+}
+.inset{
+-webkit-box-shadow: inset 5px 5px 8px #818181;
+-webkit-border-radius: 15px;
+-moz-box-shadow: inset 5px 5px 8px #818181;
+-moz-border-radius: 15px;
+box-shadow: inset 5px 5px 8px #818181;
+border-radius: 15px;
+behavior: url(PIE.htc);
+}
+#topBanner{
+margin-left: auto;
+margin-right: auto;
+width: 700px;
+height: 200px;
+background-image: url('../Resources/topBanner2.png');
+background-repeat:no-repeat;
+background-position:center;
+background-color: #d2d2d2;
+
+
+}
+#navBar{
+width:700px;
+margin-right: auto;
+margin-left: auto;
+}
+#navBar ul{
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+#navBar ul li{
+display: inline;
+}
+#navBar a{
+color: #FFF;
+background-color: #236f46;
+width: 60px;
+padding: .2em .8em;
+text-decoration: none;
+}
+#navBar a:hover
+{
+background-color: #c6f784;
+color: #FFF;
+}
+#introBlock{
+margin-left:15px;
+margin-bottom: 15px;
+padding: 5px;
+width: 550px;
+float: left;
+background-color: white;
+color: black;
+}
+#introBlock img{
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+}
+#introBlock h2{
+color: #236f46;
+}
+#newsBlock{
+clear: left;
+margin-right: 15px;
+margin-left: 15px;
+padding: 15px;
+width: 535px;
+color:white;
+background-color: #236f46;
+
+
+}
+.leftImg{
+float:left;
+margin-right: 10px;
+}
+.newsItem{
+color: black;
+background-color: white;
+padding: 2px 5px;
+margin-bottom: 15px;
+-webkit-box-shadow: 5px 5px 8px #818181;
+-webkit-border-radius: 15px;
+-moz-box-shadow: 5px 5px 8px #818181;
+-moz-border-radius: 15px;
+box-shadow: 5px 5px 8px #818181;
+border-radius: 15px;
+behavior: url(PIE.htc);
+}
+#eventsBlock{
+padding: 5px;
+background-color: white;
+margin-top: 15px;
+
+}
+#eventsBlock h3{
+text-align:center;
+background-color: #236f46;
+color: white;
+}
+#eventsBlock ul{
+list-style-type: none;
+margin-left: 0px;
+padding:0px;
+
+}
+#progressBlock{
+
+padding: 5px;
+text-align: center;
+
+background-color: orange;
+}
+#socialBlock{
+padding: 5px;
+background-color: white;
+margin-top: 15px;
+text-align: center;
+
+}
+#rightColumn{
+margin-right: 25px;
+padding: 5px;
+float:right;
+width: 175px;
+
+}
+#donateButton{
+padding: 5px;
+text-align: center;
+margin-top: 10px;
+font-size: 2em;
+}
+#donateButton a{
+color: #FFF;
+background-color: #236f46;
+width: 160px;
+padding: 10px 10px;
+text-decoration: none;
+
+
+}
+
+#donateButton a:hover
+{
+background-color: #c6f784;
+color: #FFF;
+}
+#footer{
+background-color: #236f46;
+-webkit-box-shadow: 5px 5px 8px #818181;
+-webkit-border-radius: 15px;
+-moz-box-shadow: 5px 5px 8px #818181;
+-moz-border-radius: 15px;
+box-shadow: 5px 5px 8px #818181;
+border-radius: 15px;
+text-align:center;
+behavior: url(PIE.htc);
+}
